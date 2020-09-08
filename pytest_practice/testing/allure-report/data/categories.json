@@ -1,0 +1,73 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 4 == 2",
+      "children" : [ {
+        "name" : "test_add[错误样例]",
+        "uid" : "dc26198c8aa46801",
+        "parentUid" : "15d43e996e27414542830201df71e875",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599554105282,
+          "stop" : 1599554105282,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[3, -1, 4]" ]
+      }, {
+        "name" : "test_sub[错误样例]",
+        "uid" : "1c04620275c34968",
+        "parentUid" : "15d43e996e27414542830201df71e875",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599554105377,
+          "stop" : 1599554105377,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[3, 1, 4]" ]
+      } ],
+      "uid" : "15d43e996e27414542830201df71e875"
+    }, {
+      "name" : "AssertionError: assert 4 == -3",
+      "children" : [ {
+        "name" : "test_mul[错误样例]",
+        "uid" : "fff46a235d31826b",
+        "parentUid" : "6bc4e150243e594722b26f0a31e90b6f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599554105413,
+          "stop" : 1599554105414,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[3, -1, 4]" ]
+      } ],
+      "uid" : "6bc4e150243e594722b26f0a31e90b6f"
+    }, {
+      "name" : "AssertionError: assert 3 == 2.0",
+      "children" : [ {
+        "name" : "test_div[错误样例]",
+        "uid" : "d71e0f52c0c243aa",
+        "parentUid" : "323ebabb38bfbff7087b3f635f839cdc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599554105463,
+          "stop" : 1599554105464,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[6, 3, 3]" ]
+      } ],
+      "uid" : "323ebabb38bfbff7087b3f635f839cdc"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

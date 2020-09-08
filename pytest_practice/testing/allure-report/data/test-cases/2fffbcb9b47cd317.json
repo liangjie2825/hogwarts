@@ -1,0 +1,159 @@
+{
+  "uid" : "2fffbcb9b47cd317",
+  "name" : "test_add[字符串]",
+  "fullName" : "pytest_practice.testing.test_calculator_second.TestCalculator#test_add",
+  "historyId" : "f637bd72305239e21ca240960185d1fa",
+  "time" : {
+    "start" : 1599554105273,
+    "stop" : 1599554105274,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_add",
+    "time" : {
+      "start" : 1599554105272,
+      "stop" : 1599554105272,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "start_cal",
+    "time" : {
+      "start" : 1599554105272,
+      "stop" : 1599554105272,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_cal",
+    "time" : {
+      "start" : 1599554105230,
+      "stop" : 1599554105230,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "98c9473724a5d410",
+      "name" : "stdout",
+      "source" : "98c9473724a5d410.txt",
+      "type" : "text/plain",
+      "size" : 58
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "start_cal::0",
+    "time" : {
+      "start" : 1599554105275,
+      "stop" : 1599554105275,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_cal::0",
+    "time" : {
+      "start" : 1599554105468,
+      "stop" : 1599554105469,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=0)"
+  }, {
+    "name" : "tag",
+    "value" : "first"
+  }, {
+    "name" : "tag",
+    "value" : "add"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest_practice.testing"
+  }, {
+    "name" : "suite",
+    "value" : "test_calculator_second"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalculator"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "17558-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest_practice.testing.test_calculator_second"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_add",
+    "value" : "['abc', 'xy', 'abcxy']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "add", "run(order=0)", "first" ]
+  },
+  "source" : "2fffbcb9b47cd317.json",
+  "parameterValues" : [ "['abc', 'xy', 'abcxy']" ]
+}

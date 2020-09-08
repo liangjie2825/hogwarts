@@ -6,7 +6,8 @@ from pytest_practice.pythoncode.calculator import Calculator
 
 # 获取测试数据
 def get_datas():
-    with open('./datas/calculator_datas.yml',encoding='utf-8') as f:
+    mydatapath = os.path.dirname()+"/datas/calculator_datas.yml"
+    with open(mydatapath,encoding='utf-8') as f:
         mydatas = yaml.safe_load(f)
         adddatas = mydatas['add']['datas']
         addids = mydatas['add']['myids']
@@ -38,14 +39,19 @@ class TestCalculator:
         else:
             result = self.calc.add(x, y)
         assert expect == result
-    # @pytest.mark.sub
-    # def test_sub(self,x,y,expect):
-    #     result = self.calc.sub(x,y)
-    #     assert expect == result
-    # @pytest.mark.mul
-    # def test_mul(self,x,y,expect):
-    #     result = self.calc.mul(x,y)
-    #     assert expect == result
+#     @pytest.mark.sub
+# #    @pytest.mark.parametrize('x,y,expect', get_datas()[4], ids=get_datas()[5])
+#     def test_sub(self,x,y,expect):
+#         if type(x) is float or type(y) is float:
+#             result = round(self.calc.sub(x,y),2)
+#         else:
+#             result = self.calc.sub(x, y)
+#         assert expect == result
+#     @pytest.mark.mul
+# #    @pytest.mark.parametrize('x,y,expect', get_datas()[6], ids=get_datas()[7])
+#     def test_mul(self,x,y,expect):
+#         result = self.calc.mul(x,y)
+#         assert expect == result
     @pytest.mark.div
     @pytest.mark.parametrize('x,y,expect', get_datas()[2], ids=get_datas()[3])
     def test_div(self,x,y,expect):
