@@ -14,6 +14,7 @@ class BasePage():
             self.driver = webdriver.Chrome(options=option)
         else:
             self.driver:WebDriver = driver_base
+
         if self._url != "":
             self.driver.get(self._url)
         #隐式等待

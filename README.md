@@ -20,3 +20,8 @@ alluer报告：pytest_practice/testing/allure-report
 企业微信第一次作业
 cookies数据：wechat_test/db_data/logincookies
 测试文件路径：wechat_test/test_selenium_practice/test_wechat_homework1.py
+
+企业微信第二次作业
+cookies数据：wechat_test/db_data/logincookies
+测试文件路径：wechat_test/po_homework
+

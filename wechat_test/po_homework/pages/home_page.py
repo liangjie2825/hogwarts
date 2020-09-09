@@ -12,8 +12,8 @@ class HomePage(BasePage):
     def setup_class(self):
         super().get_cookie(self._file, self._url, self._keyname)
     def go_to_contact(self):
-        self.driver.find_element_by_id("menu_contacts").click()
+        self.find(By.ID,"menu_contacts").click()
         return ContactPage(self.driver)
     def go_to_add_member(self):
-        self.find(By.CSS_SELECTOR,"['node-type='addmember']").click()
+        self.find(By.CSS_SELECTOR, "[node-type='addmember']").click()
         return AddMember(self.driver)
